@@ -1,0 +1,1 @@
+Here is the default storage directory. Script will create new folders for each album.

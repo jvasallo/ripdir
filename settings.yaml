@@ -1,0 +1,23 @@
+---
+# local settings used for storage and such (Do not edit)
+loc_settings:
+  storage_dir: "ripdir"
+  timeout: 10
+# folder_name and their parsing mechanism. Feel free to edit these as much as you want.
+folders:
+  folder_name:
+    url: "http://example.com/images/graduation"
+    start_range: 1
+    end_range: 100
+    file_type: jpg
+    patterns:
+      under_ten: "000%s"
+      generic: "00%s"
+  folder_name2:
+    url: "http://example.com/images/wedding"
+    start_range: 1
+    end_range: 100
+    file_type: jpg
+    patterns:
+      under_ten: # this is not required. only if pictures under 10 have a diff pattern.
+      generic: "0%s"
